@@ -1,1 +1,4 @@
-print("The %% behaves differently when combined with other letters, like this: %%d %%s %%f %d" %10)
+print("%f" % (500 + 300))
+print("%f" % (399 + 3020 + 1 + 3456))
+print("%f" % (300 - 59994 + 20))
+print("%f" % (4023 - 22.46))
