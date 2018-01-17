@@ -1,1 +1,1 @@
-print("%.03f, %f %d" % (30.113,12))
+print('Octal uses the letter "o" lowercase, %d %o' %(10 , 10))
