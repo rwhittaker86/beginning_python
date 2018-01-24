@@ -1,6 +1,4 @@
-pennies_saved = 1
-pennies_earned = pennies_saved
-print(pennies_earned)
-pennies_saved = pennies_saved + 1
-print(pennies_saved)
-print(pennies_earned)
+and, as ,assert, break, class, continue, def, del, elif, else,
+except, exec, False, finally, for, from, global, if, import, in,
+is, lambda, not, None, or, pass, print, raise, return, try, True,
+while, with, yield
