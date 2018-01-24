@@ -1,4 +1,2 @@
-first_string  = 345
-second_number = "This isn't a number"
-print(first_string)
-print(second_number)
+lightbulbs_in_closet = 10
+lightbulbs_in_lamps = 12
