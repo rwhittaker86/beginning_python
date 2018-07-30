@@ -47,3 +47,15 @@ print("%s" % last_names[1])
 print("%s" % last_names[1][0])
 print("%s" % last_names[2])
 print("%s" % last_names[2][0])
+by_letter = {}
+by_letter[last_names[0][0]] = last_names[0]
+by_letter[last_names[1][0]] = last_names[1]
+by_letter[last_names[2][0]] = last_names[2]
+by_letter[last_names[3][0]] = last_names[3]
+by_letter[last_names[4][0]] = last_names[4]
+print(len(last_names))
+last_element = len(last_names) - 1
+print("%s" % last_names[last_element])
+print("%s" % last_names[-1])
+print("%s" % last_names[-2])
+print("%s" % last_names[-3])
