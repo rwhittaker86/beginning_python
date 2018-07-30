@@ -18,3 +18,32 @@ count = 4
 print("Today's breakfast is %s" % breakfast[count])
 breakfast.extend(["juice", "decaf", "oatmeal"])
 print(breakfast)
+menus_specials = {}
+menus_specials["breakfast"] = "Canadian ham"
+menus_specials["lunch"] = "tuna surprise"
+menus_specials["dinner"] = "Cheeseburger Deluxe"
+print(menus_specials)
+menus_specials = {"breakfast":"sausage and eggs","lunch":"split pea soup and garlic bread","dinner":"2 hot dogs and onion rings"}
+print(menus_specials)
+
+print("%s" % menus_specials["breakfast"])
+print("%s" % menus_specials["lunch"])
+print("%s" % menus_specials["dinner"])
+
+hungry = menus_specials.keys()
+print(list(hungry))
+starving = menus_specials.values()
+print(list(starving))
+
+menu={"breakfast":"spam","lunch":"spam","dinner":"spam"}
+print(menu)
+print(menu.get("lunch"))
+print(menu.get("breakfast"))
+
+last_names = ["Douglas", "Jefferson", "Williams", "Frank", "Thomas"]
+print("%s" % last_names[0])
+print("%s" % last_names[0][0])
+print("%s" % last_names[1])
+print("%s" % last_names[1][0])
+print("%s" % last_names[2])
+print("%s" % last_names[2][0])
