@@ -69,3 +69,11 @@ print(sliced_list)
 slice_this_string = "The next time we meet, drinks are on me"
 sliced_string = slice_this_string[5:9]
 print(sliced_string)
+
+living_room = ("rug","table","chair","TV","dustbin","shelf")
+apartment = []
+apartment.append(living_room)
+print(apartment)
+apartment = []
+apartment.extend(living_room)
+print(apartment)
