@@ -90,3 +90,8 @@ print("Todays noon temperature as %.02f" % noon)
 print(todays_temperatures)
 print("Afternoon temperature was %.02f" % todays_temperatures.pop(0))
 print(todays_temperatures)
+
+alphabet = ['a', 'b', 'b', 'c', 'a', 'd', 'e']
+print(alphabet)
+alph2 = set(alphabet)
+print(alph2)
