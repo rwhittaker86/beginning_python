@@ -95,3 +95,32 @@ alphabet = ['a', 'b', 'b', 'c', 'a', 'd', 'e']
 print(alphabet)
 alph2 = set(alphabet)
 print(alph2)
+
+#END OF CHAPTER EXERCISES
+dairy_section = ["cheese", "milk", "yougrt", "butter"]
+print(dairy_section)
+dairy_section[0]="cottage cheese"
+print(dairy_section)
+print("%s %s" % (dairy_section[0], dairy_section[-1]))
+milk_expiration = ("September","18","2018")
+print(milk_expiration)
+print("This milk carton will expire on %s %s, %s" % (milk_expiration))
+milk_carton={}
+milk_carton["expiration_date"] = milk_expiration
+milk_carton["fl_oz"] = 16
+milk_carton["Cost"] = 1.4
+milk_carton["brand_name"] = "Nestle"
+print(milk_carton)
+six_milk_carton_price = milk_carton["Cost"] * 6
+print("The price of six milk cartons is $%.02f, before tax"  % (six_milk_carton_price))
+cheeses = ["gouda", "swiss", "american", "cheddar", "mozarella"]
+print(cheeses)
+dairy_section.append(cheeses)
+print(dairy_section)
+cheese_count = len(cheeses)
+print(cheese_count)
+cheese_count_alt = len(dairy_section[-1])
+print(cheese_count_alt)
+first_five_of_first_cheese = cheeses[0][0:5]
+print(first_five_of_first_cheese)
+
