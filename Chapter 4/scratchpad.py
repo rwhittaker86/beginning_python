@@ -28,3 +28,6 @@ print(3 != 3)
 print(5 != 4)
 print(tuesday_breakfast_sold != wednesday_breakfast_sold)
 print(tuesday_breakfast_sold != thursday_breakfast_sold)
+#Comparing Values For Greater Than an d Less Than
+print(5 < 3)
+print(10 > 2)
