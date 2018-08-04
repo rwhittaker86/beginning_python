@@ -22,3 +22,9 @@ wednesday_breakfast_sold = {"pancakes":8, "french toast":5, "bagels":22, "omlets
 print(tuesday_breakfast_sold == wednesday_breakfast_sold)
 thursday_breakfast_sold = {"pancakes":10, "french toast":4, "bagels":32, "omlets": 12, "eggs and sausage":13}
 print(tuesday_breakfast_sold == thursday_breakfast_sold)
+#Comparing Values for Difference
+print(3 == 3)
+print(3 != 3)
+print(5 != 4)
+print(tuesday_breakfast_sold != wednesday_breakfast_sold)
+print(tuesday_breakfast_sold != thursday_breakfast_sold)
