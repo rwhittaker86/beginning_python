@@ -31,3 +31,8 @@ print(tuesday_breakfast_sold != thursday_breakfast_sold)
 #Comparing Values For Greater Than an d Less Than
 print(5 < 3)
 print(10 > 2)
+print("a" > "b")
+print("A" > "b")
+print("A" > "a")
+print("b" > "A")
+print("Z" > "a")
