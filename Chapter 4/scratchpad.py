@@ -71,4 +71,8 @@ print(True or True)
 print(True or False)
 print(False or True)
 print(False or False)
-
+#Decisions
+if 1 > 2 :
+    print("No it is not!")
+if 2 > 1 :
+    print("Yes it is!")
