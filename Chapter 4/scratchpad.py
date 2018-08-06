@@ -62,3 +62,13 @@ print(not 0)
 print(not 5 > 2)
 # ommited because it causes a type error in pytthon 3.6 print(not "A" < 3)
 print(not "A" < "z")
+#Combinging multiple comparisons
+print(True and True)
+print(False and True)
+print(True and False)
+print(False and False)
+print(True or True)
+print(True or False)
+print(False or True)
+print(False or False)
+
