@@ -76,3 +76,17 @@ if 1 > 2 :
     print("No it is not!")
 if 2 > 1 :
     print("Yes it is!")
+
+#More complex example
+omelet_ingredients = {"egg":2, "mushroom":5, "pepper":1, "cheese":1, "milk":1}
+fridge_contents = {"egg":10, "mushroom":20, "pepper":3, "cheese":2, "tomato":4, "milk":15}
+have_ingredients = [False]
+if fridge_contents["egg"] > omelet_ingredients["egg"]:
+    have_ingredients[0] = True
+have_ingredients.append("egg")
+print(have_ingredients)
+if fridge_contents["mushroom"] > omelet_ingredients["mushroom"]:
+    if have_ingredients[0] == False:
+        have_ingredients[0] = True
+    have_ingredients.append("mushroom")
+print(have_ingredients)
