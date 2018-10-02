@@ -90,3 +90,17 @@ if fridge_contents["mushroom"] > omelet_ingredients["mushroom"]:
         have_ingredients[0] = True
     have_ingredients.append("mushroom")
 print(have_ingredients)
+if fridge_contents["pepper"] > omelet_ingredients["pepper"]:
+    if have_ingredients[0] == True:
+        have_ingredients[0] = False
+    have_ingredients.append("pepper")
+if fridge_contents["cheese"] > omelet_ingredients["cheese"]:
+    if have_ingredients[0] == False:
+        have_ingredients[0] = True
+    have_ingredients.append("cheese")
+if fridge_contents["milk"] > omelet_ingredients["milk"]:
+    if have_ingredients[0] == True:
+        have_ingredients[0] = False
+    have_ingredients.append("milk")
+if have_ingredients[0] == True:
+    print("I have the ingredients to make an omelet!")
