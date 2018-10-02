@@ -112,3 +112,11 @@ elif milk_price < 2.00:
     print("Buy one carton of milk, prices are normal")
 elif milk_price > 2.00:
     print("Go somewhere else! Milk costs too much here")
+#else example - simple
+OJ_price = 2.50
+if OJ_price < 1.25:
+    print("Get once, I'm thirsty'")
+elif OJ_price <= 2.00:
+    print("Umm... sure, but I'll drink it slowly.")
+else:
+    print("I don't have enough money. Never mind.")
