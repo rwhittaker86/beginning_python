@@ -120,3 +120,9 @@ elif OJ_price <= 2.00:
     print("Umm... sure, but I'll drink it slowly.")
 else:
     print("I don't have enough money. Never mind.")
+#while loop example - simple
+i = 10
+while i > 0:
+    print("Lift off in:")
+    print(i)
+    i = i - 1
