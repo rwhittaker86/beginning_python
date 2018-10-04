@@ -133,3 +133,16 @@ for i in range(10, 0, -1):
     print(i)
 for i in range(10):
     print(i)
+#else example - simple
+for food in ("pate", "cheese", "crackers", "yogurt"):
+    if food == "yogurt":
+        break
+else:
+    print("There is no yogurt!")
+
+for food in ("pate", "cheese", "crackers"):
+    if food =="yogurt":
+        break
+else:
+    print("There is no yogurt!")
+
