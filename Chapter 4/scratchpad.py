@@ -151,3 +151,10 @@ for food in ("pate", "cheese", "rotten apples", "crackers", "whip cream", "tomat
     if food[0:6] == "rotten":
         continue
     print("Hey you can eat %s" % food)
+# try catch example - simple
+fridge_cintents = {"egg":8, "mushroom":20, "pepper":3, "cheese":2, "tomato":4, "milk":13}
+try:
+    if fridge_contents["orange juice"] >3:
+        print("Sure, let's have some juice")
+except (KeyError)as error:
+    print("Woah! There is no %s" % error)
