@@ -158,3 +158,47 @@ try:
         print("Sure, let's have some juice")
 except (KeyError)as error:
     print("Woah! There is no %s" % error)
+
+#end of chapter exercises
+for i in range(5):
+    if i == 0:
+        print("The number is 0")
+    if i == 1:
+        print("The number is 1")
+    if i == 2:
+        print("The number is 2")
+    if i == 3:
+        print("The number is 3")
+    if i == 4:
+        print("The number is 4")
+
+i = 7
+if (i >= 0 or i <=9):
+    print("the number is between 0 and 9")
+
+test_sequence = "banana"
+if "f" == test_sequence[0]:
+    print("The first letter in the sequence is f")
+elif "f" == test_sequence[1]:
+    print("The second letter in the sequence is f")
+else:
+    print("The letter f does no appear in the test sequence")
+
+fridge ={"milk":13, "cheese":9, "lunch meat":10, "ginger ale":8, "mayo":11}
+food_sought = "milk"
+for foods in fridge.keys():
+    if foods == food_sought:
+        print("There's %d %s in the fridge!" % (fridge[food_sought],food_sought))
+        break
+else:
+    print("There's no %s in the fridge" % food_sought)
+fridge_list = ["milk","cheese","lunch meat", "ginger ale","mayo"]
+current_key=fridge_list.pop()
+while current_key !=food_sought:
+    current_key = fridge_list.pop()
+else:
+    print("There's %d %s in the fridge!" % (fridge[food_sought],food_sought))
+try:
+    print("There are %d apples in the fridge" % fridge['apples'])
+except (KeyError) as error:
+    print("There are no %s in the fridge" % error)
